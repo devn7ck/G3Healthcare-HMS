@@ -1,0 +1,76 @@
+.bg-primary {
+background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+}
+
+.col-md-4{
+max-width:20% !important;
+}
+
+.list-group-item.active {
+z-index: 2;
+color: #fff;
+background-color: #024E2E;
+border-color: #3cb371;
+}
+.text-primary {
+color: #024E2E!important;
+}
+
+#cpass {
+display: -webkit-box;
+}
+
+#list-app{
+font-size:15px;
+}
+
+.btn-primary{
+background-color: #3cb371;
+border-color: #3cb371;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#inputbtn:hover{
+    cursor:pointer;
+}
+
+body{
+    padding-top:50px;
+}
+body .container-fluid{
+    margin-top:50px;
+}
+body .container-fluid h3{
+    margin-left: 40%; 
+    padding-bottom: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body .container-fluid .row:nth-child(1) .col-md-4{
+    max-width:25%;
+    margin-top: 3%;
+}
+body .container-fluid .row:nth-child(1) .col-md-8{
+    margin-top: 3%;
+}
+body .container-fluid .row:nth-child(1) .col-md-8 .tab-content{
+    width: 950px;
+}
+body .container-fluid .row:nth-child(1) .col-sm-4{
+    left: -3%
+}
+body .container-fluid .row:nth-child(1) .col-sm-4 .panel .panel-body .StepTitle{
+    margin-top: 5%;
+}
+body .container-fluid .row:nth-child(2) .col-sm-4{
+    left: 13%;
+    margin-top: 5%;
+}
+body .container-fluid .row:nth-child(2) .col-sm-4 .panel .panel-body .StepTitle{
+    margin-top: 5%;
+}
+body .container-fluid .col-sm-4{
+    left: 18%;
+    margin-top: 5%
+}

@@ -1,0 +1,105 @@
+body{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    background-image: url(../images/ps2.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+html {
+  overflow-y: scroll; 
+}
+nav{
+    background: -webkit-linear-gradient(top, #3CB371, transparent); 
+    background-size: cover;
+}
+
+.contact-form{
+    background: #ffffffe7;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 4% 4% 4% 4%;
+/*   border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;*/
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -4%;
+    /*transform: rotate(29deg);*/
+    color: #3cb371;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -13%;
+    text-align: center;
+    color: #495057;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #3cb371;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #024E2E;
+    border: none;
+    cursor: pointer;
+}
+
+.btnContact{     
+    margin-left: 70%;
+}
+
+nav .container .navbar-brand{
+    margin-top: 10px;
+    margin-left:-65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+nav .container .collapse ul li{
+    margin-right: 40px;
+}
+nav .container .collapse ul li:last-child{
+    margin-right: unset;
+}
+nav .container .collapse ul li .nav-link{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body .container.contact-form{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+form .form-control{
+    width: 100%; 
+    height: 60px;
+}
+form>.row>div:last-child textarea{
+    min-height: 200px;
+    height: auto;
+    
+}

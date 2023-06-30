@@ -1,0 +1,61 @@
+.btn-outline-light:hover{
+    color: #25bef7;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.bg-primary {
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #024E2E;
+    border-color: #3cb371;
+}
+.text-primary {
+    color: #024E2E!important;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#inputbtn:hover{
+    cursor:pointer;
+}
+
+body{
+    padding-top: 50px;
+}
+body .container-fluid{
+    margin-top: 50px;
+}
+body .container-fluid h3{
+    margin-left: 40%; 
+    padding-bottom: 20px;
+    font-family:'IBM Plex Sans', sans-serif;
+}
+
+body .container-fluid h3 .row .col-md-4{
+    max-width:18%;
+    margin-top: 3%;
+}
+body .container-fluid h3 .row .col-md-8{
+    margin-top: 3%;
+}
+body .container-fluid h3 .row .col-md-8 .tab-content{
+    width: 950px;
+}
+body .container-fluid h3 .row .col-md-8 .tab-content .tab-pane:nth-of-type(1) .container-fluid .row .col-sm-4:nth-of-type(1){
+    left: 10%;
+}
+body .container-fluid h3 .row .col-md-8 .tab-content .tab-pane:nth-of-type(1) .container-fluid .row .col-sm-4:nth-of-type(1) .panel .panel-body .StepTitle{
+    margin-top: 5%;
+}
+
+body .container-fluid h3 .row .col-md-8 .tab-content .tab-pane:nth-of-type(1) .container-fluid .row .col-sm-4:nth-of-type(2){
+    left: 15%;
+}
+body .container-fluid h3 .row .col-md-8 .tab-content .tab-pane:nth-of-type(1) .container-fluid .row .col-sm-4:nth-of-type(2) .panel .panel-body .StepTitle{
+    margin-top: 5%;
+}

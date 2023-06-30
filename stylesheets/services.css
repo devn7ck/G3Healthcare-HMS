@@ -1,0 +1,146 @@
+.bg-skin {
+    background: #024E2E;    
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #251f1f00;
+}
+
+.btn-skin {
+  background-color: #024E2E;
+    border-color: #024E2E;
+}
+.box h4 {
+    font-size: 24px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.service-desc h5 {
+    margin-bottom: 10px;
+     color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.fa-stethoscope:before {
+  color: white;
+}
+
+.fa-h-square:before {
+    color: white;
+}
+
+.fa-wheelchair:before {
+    color: white;
+}
+
+.fa-filter:before {
+    color: white;
+}
+
+.fa-plus-square:before {
+    color: white;
+}
+
+.fa-user-md:before {
+    color: white;
+    background: none;
+}
+
+.fa-check:before {
+    background: none;
+}
+
+.fa-list-alt:before {
+    background: none;
+}
+
+.fa-hospital-o:before {
+    background: none;
+}
+
+.fa-heartbeat:before {
+    color: white;
+}
+
+footer .widget h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.intro-content {
+    /*background: url(../img/dummy/bg1.jpg) no-repeat top center;*/
+    background:-webkit-linear-gradient(left, #024E2E, #3CB371);
+    padding: 200px 0 60px;
+}
+
+
+
+body>.container{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    width: 98.85vw;
+    height: 70px;
+    padding-top: 10px;
+}
+body>.container>.navbar-header>.navbar-brand{
+    margin-top: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body>.container>.navbar-header>.navbar-brand>h5{
+    color: white;
+}
+body>.container>.collapse>ul>li>a{
+    margin-right: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+#wrapper>.intro{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#wrapper>.intro>.intro-content{
+    padding-top: 75px;
+}
+#wrapper>.intro>.intro-content>.container>.row>.col-lg-6:nth-of-type(1)>.wow>h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+#wrapper>.intro>.intro-content>.container>.row>.col-lg-6:nth-of-type(1)>.wow>.h-light{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #efe1e1;
+}
+#wrapper>.intro>.intro-content>.container>.row>.col-lg-6:nth-of-type(1)>.well{
+    background:#ffffff00;
+    color: white;
+}
+#wrapper>.intro>.intro-content>.container>.row>.col-lg-6:nth-of-type(1)>.well>.wow>.text-right>.btn{
+    background:white;
+    color:#024E2E;
+}
+
+#wrapper>#boxes{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+#wrapper>#service{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    color: white; 
+    height: 80%;
+
+}
+#wrapper>#service>.container>.row>.col-sm-3>.wow span{
+    color:#024E2E;
+}
+#wrapper>#service>.container>.row>.col-sm-3>.wow span:last-child{
+    color:unset;
+}
+#wrapper>footer{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    color: #e4d6d6;
+}
+a{
+    color: #e4d6d6;
+}

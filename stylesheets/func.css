@@ -1,0 +1,12 @@
+button:hover{
+    cursor:pointer;
+}
+#inputbtn:hover{
+    cursor:pointer;
+}
+body{
+    padding-top:50px;
+}
+body .jumbotron .container-fluid{
+    margin-top:50px;
+}

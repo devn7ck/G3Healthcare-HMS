@@ -1,0 +1,11 @@
+.btn:hover{
+    color: #0076d4;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+body{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    color:white;
+    padding-top:100px;
+    text-align:center;
+}

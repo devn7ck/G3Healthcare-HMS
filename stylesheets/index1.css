@@ -1,0 +1,93 @@
+#inputbtn:hover{
+    cursor:pointer;
+}
+.card{
+background: #f8f9fa;
+border-top-left-radius: 5% 5%;
+border-bottom-left-radius: 5% 5%;
+border-top-right-radius: 5% 5%;
+border-bottom-right-radius: 5% 5%;
+}
+
+body{
+    background: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    background-image: url(../images/checkpulse.png) !important;
+    background-size: cover;
+}
+nav>.container>a{
+    margin-top: 10px;
+    margin-left:-35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+nav>.container>.collapse>ul>li{
+    margin-right: 40px;
+}
+nav>.container>.collapse>ul>li:last-child{
+    margin-right: unset;
+}
+nav{
+    background: -webkit-linear-gradient(top, #3CB371, transparent); 
+    background-size: cover;
+}
+h6{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body>.container-fluid{
+    margin-top:60px;
+    margin-bottom:60px;
+    color:#34495E;
+}
+
+.row>.col-md-7{
+    padding-left: 180px;
+}
+.row>.col-md-7>div:first-child{
+    -webkit-animation: mover 2s infinite alternate; 
+    animation: mover 1s infinite alternate;
+}
+.row>.col-md-7>div:first-child>img{
+    width: 20%;
+    padding-left: 40px;
+    margin-top: 150px;
+    margin-left: 45px;
+    margin-bottom:15px
+}
+.row>.col-md-7>div:last-child{
+    color: white;
+}
+.row>.col-md-7>div:last-child>h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container-fluid>.row>.col-md-4{
+    margin-top: 5%;
+    right: 8%
+}
+.row>.col-md-4>.card{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+center>.fa{
+    color:#024E2E;
+}
+center>h3, 
+.form-group>.row:nth-of-type(1){
+    margin-top: 10%;
+}
+.form-group>.row:nth-of-type(1)>.psw{
+    margin-top: 8%;
+}
+
+.form-group>.row:nth-of-type(2)>.col-md-4{
+    margin: auto;
+    margin-top: 10%;
+
+}
+.form-group .btn{
+    background:#3CB371;
+}
+
+.card-body, .card{
+    background: #ffffffb0!important; 
+}

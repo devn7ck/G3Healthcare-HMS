@@ -1,0 +1,60 @@
+body{
+    background-image: url(../images/bgimg.jpeg)!important;
+    background-size: cover;  
+
+}
+
+.form-control {
+    border-radius: 0.75rem;
+}
+
+body>nav>.container>.navbar-brand{
+    margin-top: 10px;
+    margin-left:-65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body>nav>.container>.navbar-collapse>ul>li{
+    margin-right: 40px;
+}
+body>nav>.container>.navbar-collapse>ul>li>a>h6{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body>nav>.container>.navbar-collapse>ul>li:last-child{
+    margin-right: unset;
+}
+nav{
+    background: -webkit-linear-gradient(top, #3CB371, transparent); 
+
+}
+body>.container{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body>.container>.row>.register-left{
+    margin-top: 10%;
+    right: 5%;
+}
+body>.container>.row>.register-right{
+    margin-top: 40px;
+    left: 80px;
+}
+body>.container>.row>.register-right>ul{
+    width: 40%;
+}
+body>.container>.row>.register-right>ul>li{
+    width: 20%;
+}
+input[type="radio"]:checked,.form-group>a,.form-group>a:hover{
+    color:#024E2E;
+
+}
+.form-group>a:hover{
+    text-decoration: underline;
+}
+.psw-info{
+    color: #888888;
+    font-size: 12px;
+    
+}
