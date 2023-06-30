@@ -1,6 +1,7 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","myhmsdb");
+
+$con=mysqli_connect("localhost","root","","hmsdb");
 if(isset($_POST['adsub'])){
 	$username=$_POST['username1'];
 	$password=$_POST['password2'];
@@ -9,7 +10,7 @@ if(isset($_POST['adsub'])){
 	if(mysqli_num_rows($result)==1)
 	{
 		$_SESSION['username']=$username;
-		header("Location:admin-panel1.php");
+		header("Location:admin_dashboard.php");
 	}
 	else
 		// header("Location:error2.php");
@@ -25,8 +26,6 @@ if(isset($_POST['update_data']))
 	if($result)
 		header("Location:updated.php");
 }
-
-
 
 
 function display_docs()
@@ -50,3 +49,4 @@ if(isset($_POST['doc_sub']))
 	if($result)
 		header("Location:adddoc.php");
 }
+

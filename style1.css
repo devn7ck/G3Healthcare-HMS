@@ -1,10 +1,13 @@
-body {
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
-    background-size: cover;
+html{
+    scroll-behavior: smooth;
+}
+
+body {   
+    background-color: -webkit-linear-gradient(left, #024E2E, #3CB371);
+    background-size:cover; 
 }
 
 .register{
-    
     margin-top: 3%;
     padding: 3%;
 }
@@ -26,9 +29,9 @@ body {
     cursor: pointer;
 }
 .register-right{
-    background: #f8f9fa;
-    border-top-left-radius: 10% 50%;
-    border-bottom-left-radius: 10% 50%;
+    background: #f8f9fad3;
+    border-top-left-radius: 10% 20%;
+    border-bottom-left-radius: 1%;
 }
 .register-left img{
     margin-top: 15%;
@@ -60,7 +63,7 @@ body {
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background: #024E2E;
     color: #fff;
     font-weight: 600;
     width: 50%;
@@ -69,8 +72,8 @@ body {
 .register .nav-tabs{
     margin-top: 3%;
     border: none;
-    background: #0062cc;
-    border-radius: 1.5rem;
+    background: #024E2E;
+    border-radius: 1rem;
     width: 28%;
     float: right;
 }
@@ -87,8 +90,8 @@ body {
 }
 .register .nav-tabs .nav-link.active{
     width: 120px;
-    color: #0062cc;
-    border: 2px solid #0062cc;
+    color: #024E2E;
+    border: 2px solid #024E2E;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
@@ -98,4 +101,3 @@ body {
     margin-bottom: -15%;
     color: #495057;
 }
-

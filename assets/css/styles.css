@@ -1823,16 +1823,17 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
 /* ---------------------------------------------------------------------- */
 /*  OFF SIDEBAR
 /* ---------------------------------------------------------------------- */
+
 #off-sidebar {
   bottom: 0;
   position: fixed;
   right: -260px;
   top: 64px;
-  -moz-transition: all 0.3s !important 0s;
-  -o-transition: all 0.3s !important 0s;
+  -moz-transition: all 0.3s !important;
+  -o-transition: all 0.3s !important;
   -webkit-transition: all 0.3s !important;
   -webkit-transition-delay: 0s;
-  transition: all 0.3s !important 0s;
+  transition: all 0.3s !important;
   width: 260px;
   z-index: 1091;
   background: #ffffff;
@@ -1840,6 +1841,8 @@ ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
   border-top: 1px solid #c8c7cc;
   overflow: hidden;
 }
+
+
 #off-sidebar .tab-content {
   position: absolute;
   bottom: 0;
@@ -2693,7 +2696,7 @@ a.text-light:hover {
 }
 
 .bg-dark-primary {
-  background: #0062cc !important;
+  background: #024E2E !important;
   color: #ffffff;
 }
 
@@ -3689,12 +3692,12 @@ a.text-light:hover {
 }
 
 .panel-dark-primary, .partition-dark-primary {
-  background-color: #0062cc;
+  background-color: #024E2E;
   position: relative;
   color: #ffffff;
 }
 .panel-dark-primary .panel-heading, .partition-dark-primary .panel-heading {
-  background-color: #0062cc;
+  background-color: #024E2E;
   border: none;
 }
 .panel-dark-primary .panel-tools .btn, .panel-dark-primary .panel-tools > a, .partition-dark-primary .panel-tools .btn, .partition-dark-primary .panel-tools > a {
@@ -4403,7 +4406,7 @@ a.text-light:hover {
   animation: heart-pulse 1s linear infinite;
 }
 
-@keyframes "heart-pulse" {
+@keyframes heart-pulse {
   0% {
     color: #a51919;
   }
@@ -4425,7 +4428,7 @@ a.text-light:hover {
     color: red;
   }
 }
-@-webkit-keyframes "heart-pulse" {
+@-webkit-keyframes heart-pulse {
   0% {
     color: #a51919;
   }
@@ -4436,7 +4439,7 @@ a.text-light:hover {
     color: red;
   }
 }
-@-ms-keyframes "heart-pulse" {
+@-ms-keyframes heart-pulse {
   0% {
     color: #a51919;
   }
@@ -8315,7 +8318,7 @@ nav.links a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0062cc;
+  background: #024E2E;
   content: attr(data-hover);
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
@@ -8337,7 +8340,7 @@ nav.links a {
 
 .csstransforms3d .cl-effect-2 a:hover span::before,
 .csstransforms3d .cl-effect-2 a:focus span::before {
-  background: #0062cc;
+  background: #024E2E;
 }
 
 /* Effect 3: bottom line slides/fades in */
@@ -8671,7 +8674,7 @@ nav.links a {
   padding: 10px 20px;
   width: 100%;
   height: 100%;
-  background: #0062cc;
+  background: #024E2E;
   color: #ffffff;
   content: attr(data-hover);
   -webkit-transition: -webkit-transform 0.3s;
@@ -9071,7 +9074,7 @@ nav.links a {
   left: 100%;
   width: 100%;
   height: 100%;
-  background: #0062cc;
+  background: #024E2E;
   content: attr(data-hover);
   -webkit-transition: background 0.4s;
   -moz-transition: background 0.4s;
@@ -9087,7 +9090,7 @@ nav.links a {
 
 .cl-effect-19 a:hover span,
 .cl-effect-19 a:focus span {
-  background: #0062cc;
+  background: #024E2E;
   -webkit-transform: rotateY(-90deg);
   -moz-transform: rotateY(-90deg);
   transform: rotateY(-90deg);
@@ -9111,7 +9114,7 @@ nav.links a {
   display: inline-block;
   padding: 3px 15px 0;
   background: #007AFF;
-  box-shadow: inset 0 3px #0062cc;
+  box-shadow: inset 0 3px #024E2E;
   color: #ffffff;
   -webkit-transition: background 0.6s;
   -moz-transition: background 0.6s;
@@ -9150,7 +9153,7 @@ nav.links a {
 
 .cl-effect-20 a:hover span,
 .cl-effect-20 a:focus span {
-  background: #0062cc;
+  background: #024E2E;
 }
 
 .cl-effect-20 a:hover span::before,

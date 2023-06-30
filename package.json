@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.4",
+    "sweetalert2": "^11.4.8"
+  },
+  "name": "e-healthcare-application-system",
+  "description": "Hospital Management System using MySQL, Php and Bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

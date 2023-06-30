@@ -1,98 +1,120 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Contact Us</title>
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="contact.css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script >
-    function alphaOnly(event) {
-  var key = event.keyCode;
-  return ((key >= 65 && key <= 90) || key == 8 || key == 32);
-};
-  </script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/contact.css"/>
+    
+  </head>
 
-<style >
-    body{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
-}
-  .contact-form {
-    background: #f8f9fa;
-    border-top-left-radius: 10% 50%;
-    border-bottom-left-radius: 10% 50%;
-    border-top-right-radius: 10% 50%;
-    border-bottom-right-radius: 10% 50%;
-}
-</style>
-</head>
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
-    <div class="container">
+      <div class="container">
 
-      <a class="navbar-brand js-scroll-trigger" href="index.php" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp GLOBAL HOSPITALS</h4></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item" style="margin-right: 40px;">
-            <a class="nav-link js-scroll-trigger" href="index.php" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>HOME</h6></a>
-          </li>
+        <a class="navbar-brand js-scroll-trigger" href="index.php"><h4><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475ZM.879 8C-2.426 1.68 4.41-2 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z"/>
+          </svg>&nbsp G3 Healthcare</h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <li class="nav-item" style="margin-right: 40px;">
-            <a class="nav-link js-scroll-trigger" href="services.html" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>ABOUT US</h6></a>
-          </li>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.php"><h6>HOME</h6></a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="contact.html" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>CONTACT</h6></a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="services.html"><h6>SERVICES</h6></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="contact.html"><h6>CONTACT</h6></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-
-
-
-
-
-
-
-    <div class="container contact-form" style="font-family: 'IBM Plex Sans', sans-serif;">
-            <div class="contact-image">
-                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+    <div class="container contact-form">
+      <div class="contact-image">
+        <img src="images/support.jpg" alt="support_contact"/>
+      </div>
+      <form method="post" action="contact.php">
+        <h3>Our Support Team</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="txtName" class="form-control" placeholder="Name *" value="" onkeydown="return alphaOnly(event);" required/>
             </div>
-            <form method="post" action="contact.php">
-                <h3>Drop Us a Message</h3>
-               <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" onkeydown="return alphaOnly(event);" required/>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required />
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" minlength="10" maxlength="10" required />
-                        </div>
-                        <div class="form-group" >
-                            <input type="submit" name="btnSubmit" class="btnContact"   value="Send Message" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group" >
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
-                        </div>
-                    </div>
-                </div>
-            </form>
-</div>
+            <div class="form-group">
+              <input type="email" name="txtEmail" class="form-control" placeholder="Email *" value="" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" name="txtPhone" class="form-control" placeholder="Phone Number *" value="" minlength="10" maxlength="10" required />
+            </div>
+            <div class="form-group">
+              <input type="text" name="txtSubject" class="form-control" placeholder="Subject *" value="" minlength="2" maxlength="25" required />
+            </div>
+            <div class="form-group" >
+              <input type="submit" name="btnSubmit" class="btnContact"   value="Send Message" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group" >
+              <textarea name="txtMsg" class="form-control" placeholder="Your Message *"  required></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript">
+      function sendEmail() {
+        var name = $('txtName');
+        var email = $('txtEmail');
+        var subject = $('txtSubject');
+        var phone = $('txtPhone');
+        var message = $('txtMsg');
 
-</body>
+        if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(phone) && isNotEmpty(message)) {
+          $.ajax({
+            url: 'contact.php',
+            method: 'POST',
+            dataType: 'json',
+            data: {
+              name: name.val(),
+              email: email.val(),
+              subject: subject.val(),
+              phone: phone.val(),
+              body: message.val()
+            },
+            success: function (response){
+              if (response.status == "success")
+                alert('Email has been sent.');
+              else{
+                alert('Please try again.');
+                console.log(response);
+              }
+            }
+          });
+        }
+      }
+
+      function isNotEmpty(caller) {
+        if (caller.val() == "") {
+          caller.css('border', '1px solid red');
+          return false;
+        } else
+            caller.css('border', '');
+        
+        return true;
+      }
+
+    </script>
+  </body>
 </html>
 
 
