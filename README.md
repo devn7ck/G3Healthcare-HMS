@@ -25,8 +25,9 @@ Healthcare E-application System using MySQL, Php and Bootstrap
 5. Open web browser and type 'localhost/phpmyadmin'
 6. In phpmyadmin page, create a new database from the left panel and name it as 'hmsdb'
 7. Import the file 'hmsdb.sql' inside your newly created database and click ok.
-8. Open a new tab and type 'localhost/www.G3Healthcare.com' in the url of your browser
-9. Hurray! That's it!
+8. Open terminal in vscode and type in "npm install <package>". NB: <packages> are bootstrap, jquery, popper.js, sweetalert2.
+9. Open a new tab and type 'localhost/www.G3Healthcare.com' in the url of your browser
+10. Hurray! That's it!
     
 ### SOFTWARES USED
   - XAMPP was installed on the Windows 10 machine and APACHE2 Server and MySQL were initialized. And, files were built inside C://xampp/htdocs/www.G3Healthcare.com
